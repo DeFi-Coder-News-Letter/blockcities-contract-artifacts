@@ -1,0 +1,414 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "specialMappings",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x056443f4"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "cityPercentages",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x12f601cc"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "platform",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x4bde38c8"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "buildingBodyMappings",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x515f1c8d"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "buildingRoofMappings",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x58f2b411"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "cityMappings",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x66cf7bcb"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "specialModulo",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x8102e32c"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "partner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xbe10862b"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "buildingBaseMappings",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xf77d6868"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_platform",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor",
+    "signature": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "city",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "building",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "base",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "body",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "roof",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "special",
+        "type": "uint256"
+      }
+    ],
+    "name": "Generated",
+    "type": "event",
+    "signature": "0x7b276532b369ea0725e13016c9ea29f98002c70ce37b4f0d53a23c14f955fcc8"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_sender",
+        "type": "address"
+      }
+    ],
+    "name": "generate",
+    "outputs": [
+      {
+        "name": "city",
+        "type": "uint256"
+      },
+      {
+        "name": "building",
+        "type": "uint256"
+      },
+      {
+        "name": "base",
+        "type": "uint256"
+      },
+      {
+        "name": "body",
+        "type": "uint256"
+      },
+      {
+        "name": "roof",
+        "type": "uint256"
+      },
+      {
+        "name": "special",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x2fa61cd8"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_blocknumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "isSpecial",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xcba57e38"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_building",
+        "type": "uint256"
+      },
+      {
+        "name": "_params",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "updateBuildingBaseMappings",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x5e872a36"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_building",
+        "type": "uint256"
+      },
+      {
+        "name": "_params",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "updateBuildingBodyMappings",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x29290bb0"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_building",
+        "type": "uint256"
+      },
+      {
+        "name": "_params",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "updateBuildingRoofMappings",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xf479193b"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_params",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "updateCityPercentages",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x7fd53302"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_cityIndex",
+        "type": "uint256"
+      },
+      {
+        "name": "_params",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "updateCityMappings",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x760d4184"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_specialModulo",
+        "type": "uint256"
+      }
+    ],
+    "name": "updateSpecialModulo",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x6b04c142"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_params",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "updateSpecialMappings",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xff9c9759"
+  }
+]
