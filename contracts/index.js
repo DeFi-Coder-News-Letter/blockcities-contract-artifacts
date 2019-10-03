@@ -4,7 +4,7 @@ const abi = {
     BlockCities: require('./abis/v1/BlockCities'), // v1
     BlockCitiesVendingMachine: require('./abis/v2/BlockCitiesVendingMachineV2'), // v2
     ColourGenerator: require('./abis/v2/generators/ColourGeneratorV2'), // v2
-    LogicGenerator: require('./abis/v3/generators/LogicGeneratorV2'), // v2 - have v3 ready
+    LogicGenerator: require('./abis/v2/generators/LogicGeneratorV2'), // v2 - have v3 ready
 };
 
 module.exports = {
