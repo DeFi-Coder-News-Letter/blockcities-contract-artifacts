@@ -1,0 +1,186 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "exteriorPercentages",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x37da9282"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "platform",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x4bde38c8"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "partner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xbe10862b"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "backgroundsPercentages",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xe0511ea8"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_platform",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor",
+    "signature": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "exteriorColorway",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "backgroundColorway",
+        "type": "uint256"
+      }
+    ],
+    "name": "Colours",
+    "type": "event",
+    "signature": "0xf7bd294bb4b329521ceb5657336639d5b2ad323ef88473ef4a4d1142cffe07bb"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_sender",
+        "type": "address"
+      }
+    ],
+    "name": "generate",
+    "outputs": [
+      {
+        "name": "exteriorColorway",
+        "type": "uint256"
+      },
+      {
+        "name": "backgroundColorway",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x2fa61cd8"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_params",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "updateExteriorPercentages",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xa95e1c90"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_params",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "updateBackgroundsPercentages",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xdced53bf"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "exteriorPercentageArray",
+    "outputs": [
+      {
+        "name": "_exteriorPercentages",
+        "type": "uint256[]"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x7928a92e"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "backgroundsPercentagesArray",
+    "outputs": [
+      {
+        "name": "_backgroundsPercentages",
+        "type": "uint256[]"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x167dbcba"
+  }
+]
