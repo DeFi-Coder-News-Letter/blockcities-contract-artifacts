@@ -73,7 +73,7 @@ module.exports = {
         LogicGenerator: function (network) {
             return networkSplitter(network, {
                 mainnet: {
-                    address: '0x94128bd30B2e8cfE106C24FEF181670deE4F20d8',
+                    address: '0x7c91ca2620cfbaabdf440007c3b0ef5a4ac22370',
                     abi: abi.LogicGenerator
                 },
                 ropsten: {
