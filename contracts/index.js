@@ -5,6 +5,8 @@ const abi = {
     BlockCitiesVendingMachine: require('./abis/v2/BlockCitiesVendingMachineV2'), // v2
     ColourGenerator: require('./abis/v2/generators/ColourGeneratorV2'), // v2
     LogicGenerator: require('./abis/v3/generators/LogicGeneratorV3'), // v3
+    LimitedVendingMachine: require('./abis/v1/LimitedVendingMachine'), // v1
+    CityBuildingValidator: require('./abis/v1/validators/CityBuildingValidator'), // v1
 };
 
 module.exports = {
@@ -50,6 +52,26 @@ module.exports = {
                 },
             });
         },
+        LimitedVendingMachine: function (network) {
+            return networkSplitter(network, {
+                mainnet: {
+                    address: '',
+                    abi: abi.LimitedVendingMachine
+                },
+                ropsten: {
+                    address: '',
+                    abi: abi.LimitedVendingMachine
+                },
+                rinkeby: {
+                    address: '0xaCbA30520C5dC8D77aB9904dBC8e70367404F2eF',
+                    abi: abi.LimitedVendingMachine
+                },
+                local: {
+                    address: '',
+                    abi: abi.LimitedVendingMachine
+                },
+            });
+        },
         ColourGenerator: function (network) {
             return networkSplitter(network, {
                 mainnet: {
@@ -87,6 +109,26 @@ module.exports = {
                 local: {
                     address: '0xFfE3da3717EBcCd1F52c138F0b07059F534AC8Fa',
                     abi: abi.LogicGenerator
+                },
+            });
+        },
+        CityBuildingValidator: function (network) {
+            return networkSplitter(network, {
+                mainnet: {
+                    address: '',
+                    abi: abi.CityBuildingValidator
+                },
+                ropsten: {
+                    address: '',
+                    abi: abi.CityBuildingValidator
+                },
+                rinkeby: {
+                    address: '0x0B7C3259ed2d22AA8E8b81f16A7F34044a0D62aa',
+                    abi: abi.CityBuildingValidator
+                },
+                local: {
+                    address: '',
+                    abi: abi.CityBuildingValidator
                 },
             });
         },
