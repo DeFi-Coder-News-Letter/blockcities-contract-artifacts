@@ -63,7 +63,7 @@ module.exports = {
                     abi: abi.LimitedVendingMachine
                 },
                 rinkeby: {
-                    address: '0xaCbA30520C5dC8D77aB9904dBC8e70367404F2eF',
+                    address: '0x60B6e7Fc0f009A4AeE3ea3781ae20c22CdeCB46E',
                     abi: abi.LimitedVendingMachine
                 },
                 local: {
@@ -123,7 +123,7 @@ module.exports = {
                     abi: abi.CityBuildingValidator
                 },
                 rinkeby: {
-                    address: '0x0B7C3259ed2d22AA8E8b81f16A7F34044a0D62aa',
+                    address: '0x21bB0ACCF233eeE30a2555fF97b7e8A7535e5FC8',
                     abi: abi.CityBuildingValidator
                 },
                 local: {
