@@ -152,6 +152,32 @@
   },
   {
     "constant": true,
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "exteriorMappings",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
     "inputs": [],
     "name": "partner",
     "outputs": [
@@ -216,6 +242,11 @@
       {
         "internalType": "uint256",
         "name": "_roof",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_exterior",
         "type": "uint256"
       }
     ],
@@ -342,6 +373,26 @@
     "type": "function"
   },
   {
+    "constant": false,
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_rotation",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "_params",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "updateExteriorMappings",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
     "constant": true,
     "inputs": [],
     "name": "buildingMappingsArray",
@@ -408,6 +459,21 @@
       }
     ],
     "name": "buildingRoofMappingsArray",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "exteriorMappingsArray",
     "outputs": [
       {
         "internalType": "uint256[]",
